@@ -1,0 +1,72 @@
+.hello {
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+
+.contentHead {
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+}
+
+.left {
+    margin-top: 10rem;
+    width: 65ch;
+    padding: 10rem 0;
+}
+
+.right img {
+    height: 70rem;
+    width: 70rem;
+    transform: translateY(4rem);
+}
+
+.right {
+    transform: translateX(5rem) translateY(-3rem);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.15) 27%,
+        rgba(150, 150, 150, 0.2) 37%,
+        rgba(0, 0, 0, 0) 70%
+    );
+}
+
+.overline {
+    font-size: 1.4rem;
+    letter-spacing: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 5.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-body {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin-bottom: 5rem;
+    font-weight: 500;
+}
+
+button.primary {
+    cursor: pointer;
+    margin-bottom: 7rem;
+    color: white;
+    border: 0;
+    outline: 0;
+    background: var(--color-primary);
+    padding: 1rem 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.ShopItems {
+    margin: 8rem 10% 8rem 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
