@@ -1,4 +1,5 @@
 import React from "react";
+import MenuItems from "../MenuItems/menuitems.component";
 import "./navbar.component.css";
 
 export default function Navbar() {
@@ -13,12 +14,7 @@ export default function Navbar() {
                     />
                 </svg>
             </div>
-            <ul className="menu-items">
-                <li className="item">Home</li>
-                <li className="item">Headphones</li>
-                <li className="item">Speakers</li>
-                <li className="item">Earphones</li>
-            </ul>
+            <MenuItems />
             <div>
                 <svg width="23" height="20" xmlns="http://www.w3.org/2000/svg">
                     <path

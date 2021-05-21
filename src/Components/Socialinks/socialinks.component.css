@@ -1,0 +1,10 @@
+.social {
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.soci:hover {
+    fill: var(--color-primary);
+}

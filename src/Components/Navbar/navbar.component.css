@@ -8,17 +8,3 @@
     color: white;
     border-bottom: 1px solid grey;
 }
-
-.menu-items {
-    display: flex;
-    list-style: none;
-    padding: 0;
-}
-
-.item {
-    font-size: 1.4rem;
-    margin-left: 3.2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    line-height: 2;
-}

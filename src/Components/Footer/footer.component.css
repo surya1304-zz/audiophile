@@ -1,4 +1,46 @@
-.container {
+.footer {
     background-color: black;
     color: white;
+}
+
+.footer::before {
+    position: relative;
+    left: 10%;
+    display: block;
+    content: "";
+    width: 10rem;
+    height: 2px;
+    background: var(--color-primary);
+}
+
+.container {
+    height: 40rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descandcopy {
+    height: 100%;
+    color: rgb(135, 135, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.descandcopy > img {
+    width: max-content;
+}
+
+.descandcopy .des {
+    font-size: 1.5rem;
+    line-height: 25px;
+    width: 60ch;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

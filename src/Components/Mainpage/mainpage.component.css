@@ -68,13 +68,6 @@ button.primary:hover {
     background: var(--color-secondary);
 }
 
-.ShopItems {
-    margin: 8rem 10% 8rem 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .advertise {
     display: flex;
     flex-direction: column;

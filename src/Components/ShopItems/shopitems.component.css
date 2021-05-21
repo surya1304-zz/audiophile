@@ -1,6 +1,20 @@
 .ShopItems {
     margin: 8rem 10% 8rem 10%;
     display: flex;
+    gap: 5rem;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.ShopItems > * {
+    flex-basis: calc(calc(640px - 100%) * 999);
+    flex-grow: 1;
+}
+
+/* @media (min-width:320px)  
+@media (min-width:481px)  
+@media (min-width:641px)  
+@media (min-width:961px)
+@media (min-width:1025px) 
+@media (min-width:1281px) */
