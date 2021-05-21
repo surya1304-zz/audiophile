@@ -1,0 +1,39 @@
+.dust {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding-right: 20rem;
+}
+
+.text .body {
+    width: 60ch;
+    color: rgb(125, 125, 125);
+    font-weight: 500;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.ig .gear {
+    border-radius: 1rem;
+}
+
+h2.name1 {
+    width: 16ch;
+    font-size: 4rem;
+    letter-spacing: 1.43px;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.best {
+    font-size: 4rem;
+    color: var(--color-primary);
+}

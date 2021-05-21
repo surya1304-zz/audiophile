@@ -1,0 +1,22 @@
+.earpho {
+    display: flex;
+    gap: 5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.greyCard {
+    background: #f1f1f1;
+    width: 50%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+img.ep {
+    width: 65rem;
+    border-radius: 1rem;
+}

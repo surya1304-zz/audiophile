@@ -2,7 +2,12 @@ import React from "react";
 import Navbar from "../Navbar/navbar.component";
 import "./mainpage.component.css";
 import headphones from "../../assets/home/desktop/hell.png";
-import ImageCard from "../ImageCard/imagecard.component";
+import ShopItems from "../ShopItems/shopitems.components";
+import MainSpeaker from "../MainSpeaker/mainspeaker.component";
+import SecondarySpeaker from "../SecondarySpeaker/secondaryspeaker.component";
+import Earphones from "../Earphones/earphones.component";
+import BestGear from "../BestGear/bestgear.component";
+import Footer from "../Footer/footer.component";
 
 function MainPage() {
     return (
@@ -26,11 +31,15 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="ShopItems">
-                <ImageCard name="headphones" />
-                <ImageCard name="speakers" />
-                <ImageCard name="earphones" />
+            <ShopItems />
+
+            <div className="advertise">
+                <MainSpeaker />
+                <SecondarySpeaker />
+                <Earphones />
+                <BestGear />
             </div>
+            <Footer />
         </div>
     );
 }

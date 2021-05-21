@@ -42,6 +42,10 @@ h2 {
     font-weight: 700;
 }
 
+.shop:hover {
+    color: var(--color-primary);
+}
+
 a {
     text-decoration: none;
 }

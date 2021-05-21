@@ -1,0 +1,69 @@
+.OrangeCard {
+    background: var(--color-primary);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 60rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.imge {
+    display: inline-flex;
+    align-items: flex-end;
+    position: relative;
+    z-index: 2;
+}
+
+.imge img {
+    width: 40rem;
+    margin-bottom: -1.5rem;
+}
+
+.rings {
+    position: absolute;
+    left: -30rem;
+    top: -3rem;
+    z-index: -1;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.speaker_main {
+    font-size: 5.6rem;
+    line-height: 1;
+    letter-spacing: 2px;
+    width: 26rem;
+}
+
+.description {
+    margin: 5rem 0;
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: 500;
+    width: 35rem;
+    color: rgb(245, 223, 210);
+}
+
+.secondary {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    border: none;
+    outline: none;
+    background: black;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
+    width: fit-content;
+}
+
+.secondary:hover {
+    background: rgb(76, 76, 76);
+}
